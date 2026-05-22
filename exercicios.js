@@ -69,6 +69,24 @@
 // } while (resposta !== senha)
 
 // 5
+// let soma = 0
+// let valor = Number(prompt("Digite um número ou 0 para parar o sistema"))
+
+// while (valor !== 0) {
+//     soma += valor
+//     valor = Number(prompt("Digite um número ou 0 para parar: "))
+// }
+// console.log("Total da soma: " + soma);
+
+
+// 6
+let somaDeValores = 0;
+for (let i = 1; i <= 3; i++) {
+    let valor = Number(prompt(`Digite o ${i}° número: `))
+    somaDeValores += valor
+}
+let media = somaDeValores / 3
+console.log("A média dos valores é: " + media);
 
 
 // Avançado
